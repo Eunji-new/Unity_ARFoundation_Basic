@@ -6,7 +6,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
 //필수 조건
-[RequireComponent(typeof(ARTrackedImageManager)] //이게 없으면 이 스크립트 사용불가입니다.
+[RequireComponent(typeof(ARTrackedImageManager))] //이게 없으면 이 스크립트 사용불가입니다.
 public class TrackedImageInfoManager : MonoBehaviour
 {
     [SerializeField]
@@ -66,7 +66,7 @@ public class TrackedImageInfoManager : MonoBehaviour
     {
         foreach(var trackedImage in eventArgs.added)
         {
-            trackedImage.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+            trackedImage.transform.localScale = new Vector3(0.01f, 0.1f, 0.01f);
             UpdateInfo(trackedImage);
         }
 
