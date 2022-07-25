@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ARBasicImageTracking.unity
     guid: d4e5c6bbdddb60d4395bd040d74046a8
+  - enabled: 1
+    path: Assets/Scenes/ARButterfly.unity
+    guid: 3e48ff459f0668d45919f80473c81e30
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 2aface871dc9abb43968b3d47ac85541, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 87e6c0714b96b81478a34498468fecc1, type: 2}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary_butterfly
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4971257823567593700
+  m_GuidHigh: 164020850729871546
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5603996061281976594
+      m_GuidHigh: 9936772370902966696
+    m_SerializedTextureGuid:
+      m_GuidLow: 4049999647285572338
+      m_GuidHigh: 634559722122891275
+    m_Size: {x: 0.15, y: 0.120000005}
+    m_SpecifySize: 1
+    m_Name: butterfly_Albedo
+    m_Texture: {fileID: 0}

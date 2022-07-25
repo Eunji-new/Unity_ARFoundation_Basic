@@ -1,0 +1,3 @@
+5b6b5789305846518dec961d8d248315|C:\AR\AR_KETI_0725\Assets\Textures\Rafflesia.jpg|0.254
+2d457519a4634594944f88a989ce1de2|C:\AR\AR_KETI_0725\Assets\Textures\unitylogowhiteonblack.jpg|0.1
+03a620e19d7c4f61bd655aa9ab8a4d80|C:\AR\AR_KETI_0725\Assets\Textures\QRCode.jpg|0.104775
