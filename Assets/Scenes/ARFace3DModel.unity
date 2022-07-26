@@ -349,8 +349,8 @@ MonoBehaviour:
   arSession: {fileID: 2106864738}
   m_Dropdown: {fileID: 1443471451}
   m_ObjectsToPlace:
-  - {fileID: 5719569463247709890, guid: d302b97a9e4b41945a04ec263cca5e32, type: 3}
-  - {fileID: 2871678723249369360, guid: a3a8d94244872f34e831a510cf2056ce, type: 3}
+  - {fileID: 6936230450692340787, guid: 59496cf3c63f0c546bc2433e71286a8e, type: 3}
+  - {fileID: 1604610202518303641, guid: a3bc1ba9ca5fa024b990a85cacd16d3f, type: 3}
 --- !u!1 &444576335
 GameObject:
   m_ObjectHideFlags: 0
