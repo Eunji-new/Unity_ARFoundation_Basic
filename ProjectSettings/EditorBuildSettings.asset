@@ -44,9 +44,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ARFaceRiggind.unity
     guid: 535b0b05218f80743aeb4cb6a85fb863
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ImageTrackPlay.unity
     guid: 18a7e02f1f2ecf347ae996e1b7964387
+  - enabled: 1
+    path: Assets/Scenes/AnimationImageTrack.unity
+    guid: 9635828b1ccc2c14d9791e7cabe84ab3
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 2aface871dc9abb43968b3d47ac85541, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 87e6c0714b96b81478a34498468fecc1, type: 2}
