@@ -2352,9 +2352,11 @@ GameObject:
   - component: {fileID: 2221340461886685663}
   - component: {fileID: 2221340461877145137}
   - component: {fileID: 7767424951780873292}
+  - component: {fileID: 9064089754818279241}
+  - component: {fileID: -5495270504518521718}
   m_Layer: 0
   m_Name: DogPBR_AR
-  m_TagString: Untagged
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2368,7 +2370,7 @@ Transform:
   m_GameObject: {fileID: 2221340461886529023}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2221340461886685279}
   - {fileID: 2221340461886685617}
@@ -2415,6 +2417,32 @@ MonoBehaviour:
   - Recovery
   - Attack2
   - Defend
+--- !u!136 &9064089754818279241
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2221340461886529023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.7
+  m_Height: 1.5022892
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.67631155, z: 0}
+--- !u!114 &-5495270504518521718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2221340461886529023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01439b689775a654ead863d82ebacfe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7866646284523211825
 GameObject:
   m_ObjectHideFlags: 0
