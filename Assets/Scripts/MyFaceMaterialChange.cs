@@ -16,6 +16,7 @@ public class MyFaceMaterialChange : MonoBehaviour
     {
         m_arFaceManager = GetComponent<ARFaceManager>();
         m_arFaceManager.facePrefab.GetComponent<MeshRenderer>().material = m_materials[0];
+        Set_UI();
     }
 
     private void Set_UI()

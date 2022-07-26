@@ -8,8 +8,8 @@ using UnityEngine.XR.ARSubsystems;
 public class MyFacePrefabChange : MonoBehaviour
 {
 	private ARFaceManager arfacemanager;
-	/*[SerializeField]
-	private ARSession arSession;*/
+	[SerializeField]
+	private ARSession arSession;
 	[SerializeField]
 	private Dropdown m_Dropdown;
 	public Dropdown dropdown
@@ -40,75 +40,6 @@ public class MyFacePrefabChange : MonoBehaviour
 		Set_UI();
 	}
 
-	/* private void OnEnable()
-	 {
-		 if(arfacemanager != null && arfacemanager.subsystem != null)
-		 {
-			 SetVisible((m_Face.trackingState == TrackingState.Tracking) && (ARSession.state > ARSessionState.Ready));
-			 m_Face.updated += OnUpdated;
-		 }
-		 else
-		 {
-			 enabled = false;
-		 }
-	 }
-
-	 private void OnDisable()
-	 {
-		 m_Face.updated -= OnUpdated;
-		 SetVisible(false);
-	 }
-
-	 private void SetVisible(bool visible)
-	 {
-		 if (onePrefab != null && dropdown.value == 0)
-		 {
-			 onePrefab.SetActive(visible);
-		 }
-		 if (twoPrefab != null && dropdown.value == 1)
-		 {
-			 twoPrefab.SetActive(visible);
-		 }
-	 }
-
-
-	 private void FacePrefabshange(Dropdown select)
-	 {
-		 CreateObjectNecessary();
-		 SetVisible(false);
-		 switch (select.value)
-		 {
-			 case 0:
-				 arfacemanager.facePrefab = onePrefab;
-				 onePrefab.SetActive(true);
-				 break;
-			 case 1:
-				 arfacemanager.facePrefab = twoPrefab;
-				 twoPrefab.SetActive(true);
-				 break;
-		 }
-		 arSession.Reset();
-	 }
-
-	 private void CreateObjectNecessary()
-	 {
-		 if (onePrefab == null)
-		 {
-			 onePrefab = Instantiate(prefabs[0], prefabs[0].transform);
-			 onePrefab.SetActive(false);
-		 }
-		 if (twoPrefab == null)
-		 {
-			 twoPrefab = Instantiate(prefabs[1], prefabs[1].transform);
-			 twoPrefab.SetActive(false);
-		 }
-	 }
-
-	 void OnUpdated(ARFaceUpdatedEventArgs eventArgs)
-	 {
-		 CreateObjectNecessary();
-		 SetVisible((m_Face.trackingState == TrackingState.Tracking) && (ARSession.state > ARSessionState.Ready));
-	 }*/
 	private void Set_UI()
 	{
 		Reset_UI();
@@ -120,7 +51,7 @@ public class MyFacePrefabChange : MonoBehaviour
 	private void FacePrefabshange(Dropdown select)
 	{
 		arfacemanager.facePrefab = m_ObjectsToPlace[select.value];
-		//arSession.Reset();
+		arSession.Reset();
 	}
 
 	private void Reset_UI()
