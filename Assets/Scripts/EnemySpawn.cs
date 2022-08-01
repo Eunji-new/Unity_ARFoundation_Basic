@@ -17,9 +17,9 @@ public class EnemySpawn : MonoBehaviour
 		spawnTime += Time.deltaTime;
 		if (curEnemyCount < maxEnemyCount && spawnTime > 2.0f)
 		{
-			zPos = Random.Range(5, 10);
-			xPos = Random.Range(-10, 20);
-			yPos = Random.Range(-5, 5);
+			zPos = Random.Range(4, 7);
+			xPos = Random.Range(-10, 15);
+			yPos = Random.Range(-2, 5);
 			Instantiate(enemy, new Vector3(xPos, yPos, zPos), Quaternion.Euler(new Vector3(0, 180, 0)));
 			curEnemyCount++;
 			spawnTime = 0;
